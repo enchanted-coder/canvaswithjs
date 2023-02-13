@@ -1,6 +1,7 @@
-const x = document.getElementById("window1")
-const ctx = x.getContext("2d")
+const circleDrawing = document.getElementById("window1")
+const ctx = circleDrawing.getContext("2d")
 
-ctx.moveTo(0, 0)
-ctx.lineTo(200, 100)
+ctx.beginPath()
+ctx.arc(95, 50, 40, 0, 2*Math.PI)
 ctx.stroke()
+
