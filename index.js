@@ -1,3 +1,6 @@
-const test = "hello there"
+const x = document.getElementById("window1")
+const ctx = x.getContext("2d")
 
-console.log(test)
+ctx.moveTo(0, 0)
+ctx.lineTo(200, 100)
+ctx.stroke()
