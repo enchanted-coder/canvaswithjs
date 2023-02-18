@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Text</title>
+  </head>
+ <body style = "background-color: antiquewhite;" >
+  <canvas id="myCanvas"></canvas>
+   <script>
+    const x = document.getElementById("myCanvas")
+    const ctx = x.getContext("2d")
+    ctx.font = "19px Arial"
+    ctx.fillText("Hello world", 20, 50)
+    console.log(ctx)
+   </script>  
+ </body> 
+</html>
