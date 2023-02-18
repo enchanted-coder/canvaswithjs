@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <body style =" background-color:antiquewhite;">
+  <canvas id="myCanvas">
+
+  </canvas>
+
+  <script>
+    const circle = document.getElementById("myCanvas")
+    const ctx = circle.getContext("2d")
+    ctx.beginPath()
+    ctx.arc(90, 50, 40, 0, 2 * Math.PI)
+    ctx.stroke()
+  </script>
+  </body>
+</html>
