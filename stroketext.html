@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Stroke Text</title>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <script>
+      const stroke = document.getElementById("myCanvas")
+      const ctx = stroke.getContext("2d")
+
+      ctx.font = "40px Hack"
+      ctx.strokeText("Hello world", 30, 50)
+    </script>
+  </body>
+</html>
